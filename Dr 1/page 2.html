@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL DEXR4ZE</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #6a1b9a;
+            margin-bottom: 24px;
+        }
+
+        /* กล่องจัดเรียงปุ่มให้เรียงลงมาแนวตั้ง */
+        .link-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* ระยะห่างระหว่างปุ่ม */
+            width: 280px; /* ความกว้างของปุ่ม */
+        }
+
+        /* ตกแต่งหน้าตาของแต่ละปุ่ม */
+        .link-btn {
+            background-color: #370050;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .link-btn:hover {
+            background-color: #5c0085;
+            transform: scale(1.03); /* ขยายปุ่มขึ้นเล็กน้อยตอนเอาเมาส์ชี้ */
+        }
+
+        .back-btn {
+            margin-top: 30px;
+            color: #888888;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .back-btn:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ช่องทางติดตามทั้งหมด</h1>
+
+    <!-- อยากเพิ่มกี่ลิงก์ ให้ก๊อปปี้บรรทัด <a ...> มาวางต่อกันในนี้ได้เลย -->
+    <div class="link-list">
+        <a href="https://kick.com/dr4ze" target="_blank" class="link-btn">KicK</a>
+         <a href="https://www.twitch.tv/dexr4ze" target="_blank" class="link-btn">Twitch</a>
+        <a href="https://www.instagram.com/xavia.xiex/" target="_blank" class="link-btn">Instagram</a>
+        <a href="https://www.youtube.com/@dexr4ze" target="_blank" class="link-btn">YouTube</a>
+        <a href="https://www.tiktok.com/@xavia.xiex" target="_blank" class="link-btn">TikTok</a>
+    </div>
+
+    <a href="index.html" class="back-btn">← กลับหน้าหลัก</a>
+
+</body>
